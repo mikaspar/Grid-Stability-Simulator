@@ -1,4 +1,5 @@
 import numpy  as np
+from src.sim_config import SimulationConfig
 
 def update_bess_power_and_soc(state: dict, k: int, df: float, rocof: float, p_afrr_req: float, cfg: SimulationConfig):
     """Calculates the BESS response, including aFRR, damping, ramp rates, and SoC limits."""

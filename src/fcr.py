@@ -1,4 +1,5 @@
 import numpy as np
+from src.sim_config import SimulationConfig
 
 def update_fcr_power(state: dict, k: int, df: float, df_fr: float, cfg: SimulationConfig):
     """Calculates the Primary Control Reserve (FCR) for both areas including a 1st-order delay."""

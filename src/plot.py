@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from src.sim_config import SimulationConfig
 
 from IPython.display import display, Markdown
 

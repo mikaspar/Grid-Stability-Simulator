@@ -1,4 +1,5 @@
 import numpy as np
+from src.sim_config import SimulationConfig
 
 def initialize_state(cfg: SimulationConfig, n_steps: int):
     """Initializes and returns a dictionary holding the simulation's state variables."""

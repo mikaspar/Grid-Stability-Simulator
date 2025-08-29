@@ -1,5 +1,7 @@
 import numpy as np
 
+from src.sim_config import SimulationConfig
+
 # -------------------- AGC (aFRR) --------------------
 class AGC_Controller:
     def __init__(self, dt, P_max_discharge, P_max_charge, B_bias, Ki=0.08):
