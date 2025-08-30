@@ -4,8 +4,7 @@
 
 An interactive Python simulator to explore power grid dynamics. Tune parameters for generators, BESS, and interconnects to visualize real-time impacts on frequency and voltage stability. Analyze key metrics like frequency nadir and recovery time to understand the role of modern grid services in maintaining a stable power system.
 
-![Simulator Interface Screenshot](docs/screenshot.png)
-*(**Note:** You should replace this with an actual screenshot of your simulator in action. A GIF would be even better!)*
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mikaspar/Grid-Stability-Simulator/HEAD?urlpath=%2Fdoc%2Ftree%2FFrequency_stability_sim.ipynb)
 
 ---
 
